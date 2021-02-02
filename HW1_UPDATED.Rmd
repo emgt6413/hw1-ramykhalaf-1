@@ -1,0 +1,84 @@
+---
+title: "HW1"
+author: "Ramy Khalef"
+date: "2/2/2021"
+output:
+  pdf_document: default
+  html_document: default
+editor_options: 
+  chunk_output_type: inline
+---
+
+AUTHOR: RAMY KHALEF
+
+DATE: 1/31/2021
+
+# Requirement 1
+
+```{r message=FALSE, results = 'hide'}
+library(tidyverse)
+library(tinytex)
+library(foreign)
+```
+
+# Requirement 2
+
+```{r}
+setwd("C:/Users/Ramy Khalaf/Documents/PhD/Phd Materials/Spring 2021/Data science/Assignment/1//hw1-ramykhalaf/Data")
+data <- read.dta("mto_sci_puf_cells_20130206.dta")
+head(data) # showing only first 6 observations because it is long
+```
+
+# Requirements 3 (ALL)
+
+# Header level 1
+## Header level 2
+
+_This is an italicized text_
+
+__This is a bold text__
+
+* unordered list
+    + sub-Item 1
+    + sub-Item 2
+      - sub-sub-Item 
+
+1. Ordered Item 1
+2. Ordered Item 2
+3. Ordered Item 3
+    + Ordered Item 3a
+    + Ordered Item 3b
+  
+![](C:/Users/Ramy Khalaf/Documents/PhD/Phd Materials/Spring 2021/Data science/Assignment/1//hw1-ramykhalaf/Data/10-breathtaking-views-1-orig.jpg)
+As you can see the image is pulled from the link (https://cdn.hswstatic.com/gif/10-breathtaking-views-1-orig.jpg)
+
+# Requirement 4
+
+```{r}
+x <- 5  # radius of a circle
+x
+```
+
+For a circle with the radius `r x` and its area is about `r 3.14 * x^2`.
+
+# Requirement 5
+
+This is done in RStudio
+
+# Requirement 6
+      
+```{r}
+# my_variable <- 10
+# my_varıable
+# Error: object 'my_varıable' not found
+```
+
+This is since the letter "i" in both are different (one has the dot and the other does not); as such, the second object is not available in the code to realize its value. The variable is not available in order to be called
+
+# Requirement 7
+
+Showing R markdown in a new menu (source: https://twitter.com/JosephTumber/status/1350185715976470531?s=20). This is very helpful since I like to use many windows for better productivity.
+
+# Requirement 8
+
+I would say the most difficult for me would have to be p-value fishing, since often in our research we are given a dataset and often we have to "fish" for what to look into the data. I would also like to say that a lot of times in reviewing of paper in journals, I notice that partial publication seems to be evident. Where not the entire story is detailed in attempts to get a "better" publication. This is very unethical.
